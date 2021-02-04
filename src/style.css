@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.custom-card {
+  height: 200px;
+  max-width: 130px;
+  background-color: white;
+}
+.custom-card-header {
+  font-size: 30px;
+  text-align: left;
+  margin-top: -10px;
+}
+.custom-card-body {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-card-footer {
+  transform: rotate(180deg);
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.red {
+  color: red;
+}
