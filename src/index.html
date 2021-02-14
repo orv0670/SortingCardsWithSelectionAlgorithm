@@ -3,32 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sorting Cards with Bubble algorithm</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <title>Sorting Cards with selection algorithm</title>
   </head>
-
   <body>
-    <div class="container-fluid">
-      <div class="d-flex flex-row" id="main-container"></div>
-    </div>
-    <div class="container">
-      <div class="input-group">
-        <input type="number" placeholder="ingrese un numero" id="carta" />
-        <div class="input-group-append" id="button-addon4">
-          <button class="btn btn-danger" id="draw" type="button">
-            Draw
-          </button>
-          <button class="btn btn-danger" id="sort" type="button">
-            Sort
-          </button>
-        </div>
+    <container>
+      <div class="header">
+        <input
+          id="input1"
+          type="number"
+          class="form-control mb-2"
+          placeholder="ingrese un numero"
+        />
+        <button type="button" class="btn btn-success" id="draw">
+          Draw
+        </button>
+        <button type="button" class="btn btn-danger" id="sort">
+          Sort
+        </button>
       </div>
-    </div>
+      <div class="d-flex justify-content-around flex-wrap" id="cards"></div>
+    </container>
     <script src="main.js"></script>
   </body>
 </html>

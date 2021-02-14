@@ -1,30 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
-  background-color: green;
+  background-image: url(https://lh3.googleusercontent.com/proxy/bOkYVOC9Tbzp0miHws1bzwT8IrtrOZ7_1BIzrRwBpF_iPeynM_eFNGrDzCF7w48QCLGxL7xk4DXRJDjr_aY3V3Yj5UTK6_GAHZA6AOaTY2akRlKUd-8Ogwlquh3aRO7WheSu9wzO-w);
+  background-size: cover;
 }
 
-.custom-card {
-  height: 200px;
-  max-width: 130px;
+.header {
+  margin: 20px;
+  width: fit-content;
+}
+
+.card {
+  display: flex;
   background-color: white;
-}
-.custom-card-header {
-  font-size: 30px;
-  text-align: left;
-  margin-top: -10px;
-}
-.custom-card-body {
-  font-size: 50px;
-  text-align: center;
   margin-top: 20px;
+  width: 28vh;
+  height: 40vh;
+  margin: 20px;
+  border-radius: 3vh;
 }
 
-.custom-card-footer {
+.Suit1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 8vh;
+  position: relative;
+  top: -7%;
+  left: 5%;
+}
+
+.number {
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  font-size: 12vh;
+  position: relative;
+  top: -5%;
+  left: 0%;
+}
+
+.Suit2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 8vh;
+  position: relative;
+  top: 2%;
+  left: -5%;
   transform: rotate(180deg);
-  font-size: 30px;
-  margin-top: 30px;
-}
-
-.red {
-  color: red;
 }
